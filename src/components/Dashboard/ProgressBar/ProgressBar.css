@@ -1,0 +1,14 @@
+.task-summ-container {
+  width: 273px;
+  height: 344px;
+  border: 1px dashed #9747ff;
+  border-radius: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.task-summ-container  p{
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 5px;
+}
