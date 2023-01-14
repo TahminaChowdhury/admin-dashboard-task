@@ -21,6 +21,8 @@ import FilterListIcon from '@mui/icons-material/FilterList';
 import { visuallyHidden } from '@mui/utils';
 import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
 import FileCopyIcon from '@mui/icons-material/FileCopy';
+import FormControlLabel from '@mui/material/FormControlLabel';
+import Switch from '@mui/material/Switch';
 
 function createData(name, department, checkIn, checkOut) {
   return {
@@ -298,7 +300,7 @@ export default function EnhancedTable() {
     page > 0 ? Math.max(0, (1 + page) * rowsPerPage - rows.length) : 0;
 
   return (
-    <Box sx={{ width: '100%' }}>
+    <Box sx={{ width: '100%' }} md={{ width: '100%' }}>
       <Paper sx={{ width: '100%', mb: 2 }}>
         <EnhancedTableToolbar numSelected={selected.length} />
         <TableContainer>
@@ -324,7 +326,6 @@ export default function EnhancedTable() {
 
                   return (
                     <TableRow
-                      align="left"
                       hover
                       onClick={(event) => handleClick(event, row.name)}
                       role="checkbox"
