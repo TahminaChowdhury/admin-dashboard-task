@@ -1,4 +1,12 @@
-.table-compo{
-    width: 252px;
-height: 72px;
+.table-compo {
+  width: 252px;
+  height: 72px;
+}
+.checkIn-box {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background-color: green;
+  color: white;
+  border-radius: 50px;
 }

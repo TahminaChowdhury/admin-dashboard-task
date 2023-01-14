@@ -4,7 +4,7 @@ import { styled } from '@mui/material/styles';
 import LinearProgress, {
   linearProgressClasses,
 } from '@mui/material/LinearProgress';
-import { Box, Typography } from '@mui/material';
+import { Box } from '@mui/material';
 
 // Line progress bar
 const BorderLinearProgress = styled(LinearProgress)(() => ({
