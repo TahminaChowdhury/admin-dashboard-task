@@ -8,7 +8,6 @@ import AttendaceTableCompo from './AttendaceTableCompo';
 const Attendance = () => {
   return (
     <Box>
-      <h1>This is Attendance Route</h1>
       <Box
         sx={{
           display: 'flex',
